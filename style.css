@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: black;
+    max-width: 1440px;
+}
+
+
+body {
+    background-color: white;
+    font-size: 18px;
+    width: 68%;
+    margin: auto;
+    height: 100%;
+
+
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+
+.img {
+    width: 350px;
+    height: 250px;
+}
+.topimg {
+    width: 430px;
+    height: 320px;
+}
+.container,
+.subcontainer {
+    display: flex;
+}
+.container {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 3px solid hsl(193, 100%, 96%);
+    padding: 40px;
+}
+#topper {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 40px;
+
+
+}
+
+.subcontainer {
+    margin-bottom: 17px;
+}
+
+.logo {
+    width: 130px;
+    height: 20px
+}
+.free {
+    float: right;
+    margin-left: 550px;
+    padding: 7px 27px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+
+
+}
+.start {
+    margin: 15px 8px;
+    padding: 9px 30px;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+
+
+}
+.startlink {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+
+}
+
+.freelink {
+    text-decoration: none;
+    color: hsl(192, 100%, 9%);
+
+}
+header {
+    background-image: url('bg-hero-desktop.svg');
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background-color: hsl(193, 100%, 96%);
+
+}
