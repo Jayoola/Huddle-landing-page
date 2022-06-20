@@ -42,7 +42,8 @@ p {
     height: 320px;
 }
 .container,
-.subcontainer {
+.subcontainer,
+.lastcontainer {
     display: flex;
 }
 .container {
@@ -51,6 +52,14 @@ p {
     border: 3px solid hsl(193, 100%, 96%);
     padding: 40px;
 }
+.lastcontainer {
+    margin-bottom: 200px;
+    border-radius: 30px;
+    border: 3px solid hsl(193, 100%, 96%);
+    padding: 40px;
+}
+
+
 #topper {
     margin-bottom: 30px;
     border-radius: 30px;
@@ -96,6 +105,7 @@ p {
     text-decoration: none;
     color: hsl(192, 100%, 9%);
 
+
 }
 header {
     background-image: url('bg-hero-desktop.svg');
@@ -103,5 +113,122 @@ header {
     margin-bottom: 30px;
     border-radius: 30px;
     background-color: hsl(193, 100%, 96%);
+}
+.logobottom {
+    width: 130px;
+    height: 20px
+}
+.non-container {
+    background-color: white;
+    position: absolute;
+    top: 1630px;
+    right: 250px;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 3px solid hsl(193, 100%, 96%);
+    padding: 50px;
+    justify-content: center;
+}
+
+
+.get {
+    margin: 15px 70px;
+    padding: 17px 60px;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+}
+.getlink {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%)
+}
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    padding: 50px 30px;
+    display: grid;
+    grid-template-areas: 'a a a a' 'b e h k' 'c f i i' 'd g j j';
+    position: relative;
+}
+
+.div1 {
+    grid-area: a;
+}
+.div2 {
+    grid-area: b;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+}
+.div3 {
+    grid-area: c;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+
+}
+.div4 {
+    grid-area: d;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+
+}
+.div5 {
+    grid-area: e;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+
+}
+.div6 {
+    grid-area: f;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+}
+.div7 {
+    grid-area: g;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+
+}
+.div8 {
+    grid-area: h;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+
+}
+.div9 {
+    grid-area: i;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+
+}
+.div10 {
+    grid-area: j;
+    color: hsl(193, 100%, 96%);
+    font-size: 13px;
+
+
+}
+.div11 {
+    grid-area: k;
+
+
+}
+.div11 img {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+}
+#footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    font-size: 8px;
+    margin-top: 80px;
 
 }
